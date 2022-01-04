@@ -1,14 +1,17 @@
 {
-    "name": "bug",
-    "version": "1.0.0",
-    "private": true,
-    "workspaces": {
-        "packages": [
-            "packages/*"
-        ]
-    },
-    "packageManager": "yarn@3.1.1",
-    "resolutions": {
-        "react-devtools-core": "4.11.0"
-    }
+  "name": "bug",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules && rm -rf ./packages/*/node_modules"
+  },
+  "packageManager": "yarn@3.1.1",
+  "resolutions": {
+    "react-devtools-core": "4.11.0"
+  }
 }

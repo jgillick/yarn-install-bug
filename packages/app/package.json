@@ -2,6 +2,9 @@
     "name": "@bug/app",
     "version": "1.0.0",
     "private": true,
+    "scripts": {
+        "postinstall": "npx jetify"
+    },
     "dependencies": {
         "@alessiocancian/react-native-actionsheet": "^3.1.1",
         "@bug/shared": "1.0.0",
